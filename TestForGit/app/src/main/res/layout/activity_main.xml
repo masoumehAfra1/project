@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> develop
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dorsa.testforgit.MainActivity">
+    tools:context="com.example.dorsa.testforgit.MainActivity"
+    android:orientation="vertical">
 
 
     <ImageView
@@ -12,9 +17,11 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@mipmap/ic_launcher"
-        />
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
 
     <TextView
+<<<<<<< HEAD
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -26,3 +33,14 @@
         android:textStyle="italic"/>
 
 </RelativeLayout>
+=======
+   android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello every body"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+</LinearLayout>
+>>>>>>> develop
