@@ -1,3 +1,4 @@
 node_modules/
 *.txt
 TestForGit/app/src/main/AndroidManifest.xml
+TestForGit/app/src/main/java/com/example/dorsa/testforgit/Adapter.java
