@@ -8,6 +8,7 @@ public class MainActivity extends AppCompatActivity {
 
 private ImageView img;
     public static String GITHUB;
+    private int num;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
